@@ -5,10 +5,9 @@ package Collection;
 //size dynamically grows
 //uses internal array
 //searching and sorting fast
-//maniplulation insertion deletion slow
+//manipulation insertion deletion slow
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ListPractice {
@@ -25,7 +24,7 @@ class ArrayListP {
         List<Integer> list = new ArrayList<>(); //initialize
         list.add(2);//to add element
         list.add(3);//to add element
-        System.out.println(list.get(0));//get elemnt using index
+        System.out.println(list.get(0));//get element using index
         System.out.println(list.size());//get size of list
         list.remove(0);//removal of element at index 0
         System.out.println(list.size());
